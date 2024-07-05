@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
     <!-- Pixel Code for https://analytics.tagueacademy.com/ -->
-<script defer src="https://analytics.tagueacademy.com/pixel/KOcqZ0eIG2jeUPPH"></script>
-<!-- END Pixel Code -->
+    <script defer src="https://analytics.tagueacademy.com/pixel/KOcqZ0eIG2jeUPPH"></script>
+    <!-- END Pixel Code -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'exemple</title>
@@ -29,6 +29,7 @@
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s ease;
+            cursor: pointer; /* Ajout d'un curseur pointeur pour indiquer l'interactivité */
         }
         .button:hover {
             background-color: #0056b3;
@@ -44,6 +45,6 @@
         <li>Ville: Imaginaria</li>
         <li>Profession: Explorateur</li>
     </ul>
-   <button type="button" onclick="analytics.goal('kenfack')" class="button">Click me</button>
+    <a href="https://analytics.tagueacademy.com" onclick="analytics.goal('kenfack')" class="button">Cliquez ici</a>
 </body>
 </html>
